@@ -1,8 +1,12 @@
 {
   "name": "gpt3-tokenizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Simon Liang <simon@x-tech.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xanthous-tech/gpt3-tokenizer.git"
+  },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
