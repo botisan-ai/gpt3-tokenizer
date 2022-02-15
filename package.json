@@ -1,6 +1,6 @@
 {
   "name": "gpt3-tokenizer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "author": "Simon Liang <simon@x-tech.io>",
   "repository": {
@@ -12,6 +12,7 @@
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
+    "dist-browser",
     "src"
   ],
   "engines": {
@@ -23,7 +24,7 @@
     "build:browser": "rimraf dist-browser && tsdx build --target browser --format esm",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "prepare": "tsdx build",
+    "prepare": "npm run build",
     "size": "size-limit"
   },
   "peerDependencies": {},
