@@ -1,5 +1,7 @@
-import { TextEncoder, TextDecoder } from 'util';
 import ArrayKeyedMap from 'array-keyed-map';
+
+import TextEncoder from './text-encoder';
+import TextDecoder from './text-decoder';
 
 import bpeVocab from './bpe-vocab';
 import bpeRegex from './bpe-regex';
