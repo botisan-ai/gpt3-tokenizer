@@ -1,9 +1,6 @@
 # GPT3 Tokenizer
 
-This is a TypeScript tokenizer for OpenAI's GPT-3 model. Including support for `gpt3` and `codex` tokenization.
-
-Currently it works in NodeJS, but since the support for browser is also transparent, it should be easy to port it to browser.
-
+This is a isomorphic TypeScript tokenizer for OpenAI's GPT-3 model. Including support for `gpt3` and `codex` tokenization. It should work in both NodeJS and Browser environments.
 ## Usage
 
 First, install:
