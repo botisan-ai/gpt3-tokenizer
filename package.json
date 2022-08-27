@@ -39,7 +39,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "module": "dist/gpt3-tokenizer.esm.js",
+  "module": "dist/gpt3-tokenizer.cjs.production.min.js",
   "size-limit": [
     {
       "path": "dist-browser/gpt3-tokenizer.js",
