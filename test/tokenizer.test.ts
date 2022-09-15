@@ -57,4 +57,12 @@ describe('gpt3 tokenizer test', () => {
     expect(encoded.bpe).toEqual([4299, 1388, 33529, 198, 50258, 3601, 10786, 31373, 995, 11537]);
     expect(tokenizer.decode(encoded.bpe)).toEqual(str);
   });
+
+  it('works with javascript object property strings', () => {
+    const tokenizer = new GPT3Tokenizer({ type: 'codex' });
+    const str = 'some_code toString some_more_code';
+    const encoded = tokenizer.encode(str);
+    expect(encoded.bpe).toEqual([11246, 62, 8189, 284, 10100, 617, 62, 3549, 62, 8189]);
+    expect(tokenizer.decode(encoded.bpe)).toEqual(str);
+  });
 });
