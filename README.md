@@ -1,5 +1,9 @@
 # GPT3 Tokenizer
 
+[![Build](https://github.com/botisan-ai/gpt3-tokenizer/actions/workflows/main.yml/badge.svg)](https://github.com/botisan-ai/gpt3-tokenizer/actions/workflows/main.yml)
+[![NPM Version](https://img.shields.io/npm/v/gpt3-tokenizer.svg)](https://www.npmjs.com/package/gpt3-tokenizer)
+[![NPM Downloads](https://img.shields.io/npm/dt/gpt3-tokenizer.svg)](https://www.npmjs.com/package/gpt3-tokenizer)
+
 This is a isomorphic TypeScript tokenizer for OpenAI's GPT-3 model. Including support for `gpt3` and `codex` tokenization. It should work in both NodeJS and Browser environments.
 ## Usage
 
