@@ -130,7 +130,7 @@ export default abstract class GPT3Tokenizer {
   }
 
   bpe(token: string) {
-    if (token in this.cache) {
+    if (this.cache.hasOwnProperty(token)) {
       return this.cache[token];
     }
 
