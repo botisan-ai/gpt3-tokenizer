@@ -16,7 +16,7 @@ yarn add gpt3-tokenizer
 In code:
 
 ```typescript
-import { GPT3Tokenizer } from 'gpt3-tokenizer';
+import GPT3Tokenizer from 'gpt3-tokenizer';
 
 const tokenizer = new GPT3Tokenizer({ type: 'gpt3' }); // or 'codex'
 const str = "hello 👋 world 🌍";
